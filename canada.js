@@ -11,9 +11,15 @@ function setup() {
 
 function draw() {
   // Desenha a imagem de fundo
-  image(canadaFlag, 0, 0, 400,200); // Desenha a imagem da bandeira do Canadá como fundo
+  image(canadaFlag, 0, 0, 400,200);
+  // Desenhamos a imagem da bandeira do Canadá como fundo
+  // ela serve de orientação para o desenho via p5.
+  // o desafio é ajustar os comandos da biblioteca P5
+  // e ajustar a bandeira não precisa ser exato mais
+  // ajuste o melhor que puder.
+  // use as referências de : https://p5js.org/reference/
   //Fill();
-  fill("black");
+  fill("red");
   strokeWeight(1);
   strokeJoin(MITER);
   beginShape();
