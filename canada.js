@@ -1,17 +1,18 @@
 let canadaFlag; // Variável para armazenar a imagem de fundo
-let comentário="Testando atualização do github";
-
 
 function preload() {
+  // Esta função é chamada antes do setup() e é usada para carregar recursos, como imagens, sons, etc.
   // Carrega a imagem da bandeira do Canadá
   canadaFlag = loadImage('https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Flag_of_Canada_%28Pantone%29.svg/1280px-Flag_of_Canada_%28Pantone%29.svg.png');
 }
 
 function setup() {
+  // Esta função é chamada uma vez no início e é usada para configurar o ambiente de desenho
   createCanvas(1280, 640); // Define o tamanho do canvas de acordo com o tamanho da imagem
 }
 
 function draw() {
+  // Esta função é chamada continuamente e é usada para desenhar no canvas
   // Desenha a imagem de fundo
   image(canadaFlag, 0, 0, 400,200);
   // Desenhamos a imagem da bandeira do Canadá como fundo
