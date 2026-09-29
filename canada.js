@@ -1,4 +1,5 @@
 let canadaFlag; // Variável para armazenar a imagem de fundo
+let comentário
 
 function preload() {
   // Carrega a imagem da bandeira do Canadá
